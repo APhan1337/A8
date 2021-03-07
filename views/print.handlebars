@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>EZ Audit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="btn btn-primary" type="submit" onclick="printHandler()">Print</button>
+        </div>
+    </nav>
+
+    <div class="print-page-wrapper">
+        <main class="print-preview-container container shadow">
+            <div>
+                <h1 class="title">Degree Audit</h1>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p>Name: Kenneth Chen</p>
+                </div>
+                <div class="col-6">
+                    <p>PID: A15819942</p>
+                </div>
+                <div class="col-6">
+                    <p>College: Sixth</p>
+                </div>
+                <div class="col-6">
+                    <p>GPA: 4.0</p>
+                </div>
+                <div class="col-6">
+                    <p>Major: Math-CS</p>
+                </div>
+                <div class="col-6">
+                    <p>Minor: Cog. Sci.</p>
+                </div>
+            </div>
+
+            <section class="mb-3">
+                <h2 class="mb-3 text-center">Required</h2>
+                <h3 class="mb-3">Major Requirements</h3>
+
+                <ul>
+                    <li>CSE 8A&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>CSE 8B&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>MATH 20C&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                </ul>
+
+                <h3 class="mb-3">Minor Requirements</h3>
+
+                <ul>
+                    <li>DSGN 10&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>COGS 120&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>CSE 99&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                </ul>
+            </section>
+            <section class="mb-3">
+                <h2 class="mb-3 text-center">Completed</h2>
+                <h3 class="mb-3">Major Requirements</h3>
+
+                <ul>
+                    <li>CSE 8A&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>CSE 8B&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>MATH 20C&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+    <div class="print-page-wrapper">
+        <main class="print-preview-container container shadow">
+            <section class="my-3">
+                <ul>
+                    <li>DSGN 10&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>COGS 120&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                    <li>CSE 99&emsp;Units: 4.0&emsp;Grade: N/A</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        function printHandler() {
+            alert("Print job queued. Check your printer!");
+        }
+    </script>
+</body>
+
+</html>

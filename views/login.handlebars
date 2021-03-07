@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>EZ Audit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/login.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            appId      : '888614848381115',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v3.2'
+            });
+            
+            FB.AppEvents.logPageView();   
+            
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+</head>
+
+<body class="text-center">
+
+    <div class="center_div">
+        <form class="form-signin" action="/login" method="POST">
+            <img class="mb-4" src="https://i.pinimg.com/564x/ab/54/67/ab54673e86523184ca2ffb0473108172.jpg" alt=""
+                width="72" height="72">
+            <h2 class="h3 mb-3 font-weight-normal">Please sign in with your TritonLink Credentials!</h2>
+            <label for="inputPID" class="sr-only">TritonLink user name (or student PID)</label>
+            <input type="text" id="inputPID" class="form-control" name="pid" placeholder="A########" required=""
+                autofocus="">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password"
+                required="">
+            <hr />
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <br /><br />
+            <fb:login-button 
+                scope="public_profile,email"
+                onlogin="checkLoginState();">
+            </fb:login-button>
+            
+            <p class="mt-5 mb-3 text-muted">© 2021</p>
+        </form>
+
+    </div>
+</body>
+
+</html>

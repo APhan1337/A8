@@ -1,0 +1,70 @@
+.student-info {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    background: #C4C4C4;
+}
+
+.student-info__heading {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.student-info__heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.student-info__heading .title {
+    margin-left: 2rem;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav > div {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.offset {
+    margin: 4rem 0;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.center_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/**
+    Print Degree Audit page
+**/
+
+.print-page-wrapper {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.print-preview-container {
+    width: 500px;
+    min-height: 97%;
+    background-color: white;
+}

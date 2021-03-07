@@ -1,0 +1,42 @@
+{
+    "majors": [
+        {
+            "number": "CSE 11",
+            "id": "cse-11",
+            "units": "4",
+            "grade": "A+"
+        },
+        {
+            "number": "CSE 20",
+            "id": "cse-20",
+            "units": "4",
+            "grade": "A"
+        },
+        {
+            "number": "MATH 20D",
+            "id": "math-20d",
+            "units": "4",
+            "grade": "A+"
+        }
+    ],
+    "minors": [
+        {
+            "number": "DSGN 10",
+            "id": "dsgn-10",
+            "units": "4",
+            "grade": "A+"
+        },
+        {
+            "number": "COGS 120",
+            "id": "cogs-120",
+            "units": "4",
+            "grade": "A+++++++++"
+        },
+        {
+            "number": "CSE 99",
+            "id": "cse-99",
+            "units": "2",
+            "grade": "A+"
+        }
+    ]
+}

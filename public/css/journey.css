@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('../images/journey.svg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*
+.student {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: url('../images/student-sprite.png') 0 0 no-repeat;
+    width: 571px;
+    height: 1558px;
+    transform: translate(-50%, -50%);
+    margin: 2em auto;
+    animation: run 1s steps(4) infinite;
+}
+
+@keyframes run {
+    100% {
+        background-position: -2284px, 0;
+    }
+}
+*/
+
+.progress-bar {
+    font-family: 'Monsterrat', sans-serif;
+    background-color: transparent;
+    width: 50%;
+}
+
+#audit-button {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    color: white;
+}
+
+
+#dda-button {
+    position: absolute;
+    left: 75%;
+    top: 35%;
+}
+
+
+#flag-button1 {
+    position: absolute;
+    left: 25%;
+    top: 75%;
+}
+
+#flag-button2 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+#flag-button3 {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+
+#flag-button svg {
+    width: 100px;
+    height: 100px;
+}

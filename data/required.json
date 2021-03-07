@@ -1,0 +1,46 @@
+{
+    "majors": [
+        {
+            "title": "Software Engineer",
+            "number": "CSE 110",
+            "id": "cse-110",
+            "description": "Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDE’s, version control, and test harnesses.\nPrerequisites: CSE 100; restricted to students with junior or senior standing within the CS25, CS26, CS27, CS28, and EC26 majors. All other students will be allowed as space permits.",
+            "cape": "cse+110",
+            "evals": ["Powell is great!!"]
+        },
+        {
+            "title": "Mathematical Reasoning",
+            "number": "MATH 109",
+            "id": "math-109",
+            "description": "This course uses a variety of topics in mathematics to introduce the students to rigorous mathematical proof, emphasizing quantifiers, induction, negation, proof by contradiction, naive set theory, equivalence relations and epsilon-delta proofs.",
+            "cape": "math+109",
+            "evals": []
+        },
+        {
+            "title": "Discrete Mathematics and Graph Theory",
+            "number": "MATH 154",
+            "id": "math-154",
+            "description": "Basic concepts in graph theory, including trees, walks, paths, and connectivity, cycles, matching theory, vertex and edge-coloring, planar graphs, flows and combinatorial algorithms, covering Hall’s theorems, the max-flow min-cut theorem, Euler’s formula, and the travelling salesman problem. Credit not offered for MATH 154 if MATH 158 is previously taken. If MATH 154 and MATH 158 are concurrently taken, credit is only offered for MATH 158.\nPrerequisites: MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+            "cape": "math+154",
+            "evals": []
+        }
+    ],
+    "minors": [
+        {
+            "title": "Geometric Computer Graphic",
+            "number": "MATH 155A",
+            "id": "math-155a",
+            "description": "Bezier curves and control lines, de Casteljau construction for subdivision, elevation of degree, control points of Hermite curves, barycentric coordinates, rational curves. Programming knowledge recommended. (Students may not receive credit for both MATH 155A and CSE 167.) Prerequisites: MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+            "cape": "math+155a",
+            "evals": []
+        },
+        {
+            "title": "Topics in Computer Graphics",
+            "number": "MATH 155B",
+            "id": "math-155b",
+            "description": "Spline curves, NURBS, knot insertion, spline interpolation, illumination models, radiosity, and ray tracing. Prerequisites: MATH 155A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+            "cape": "math+155b",
+            "evals": []
+        }
+    ]
+}

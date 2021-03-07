@@ -1,0 +1,27 @@
+<nav class="bg-white">
+    <div class="btn-group btn-group-lg" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        {{#if required}}
+        <label class="btn btn-secondary" for="btncheck1"><a href="/required" class="text-white">Required</a></label>
+        {{else}}
+        <label class="btn btn-outline-secondary" for="btncheck1"><a href="/required"
+                class="text-dark">Required</a></label>
+        {{/if}}
+
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        {{#if completed}}
+        <label class="btn btn-secondary" for="btncheck2"><a href="/completed" class="text-white">Completed</a></label>
+        {{else}}
+        <label class="btn btn-outline-secondary" for="btncheck2"><a href="/completed"
+                class="text-dark">Completed</a></label>
+        {{/if}}
+
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        {{#if wip}}
+        <label class="btn btn-secondary" for="btncheck3"><a href="/wip" class="text-white">In Progress</a></label>
+        {{else}}
+        <label class="btn btn-outline-secondary" for="btncheck3"><a href="/wip" class="text-dark">In
+                Progress</a></label>
+        {{/if}}
+    </div>
+</nav>

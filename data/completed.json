@@ -1,0 +1,42 @@
+{
+    "majors": [
+        {
+            "number": "CSE 8A",
+            "id": "cse-8a",
+            "units": "4",
+            "grade": "A+"
+        },
+        {
+            "number": "CSE 8B",
+            "id": "cse-8b",
+            "units": "4",
+            "grade": "A"
+        },
+        {
+            "number": "MATH 20C",
+            "id": "math-20c",
+            "units": "4",
+            "grade": "A+"
+        }
+    ],
+    "minors": [
+        {
+            "number": "DSGN 1",
+            "id": "dsgn-1",
+            "units": "4",
+            "grade": "A+"
+        },
+        {
+            "number": "COGS 108",
+            "id": "cogs-108",
+            "units": "4",
+            "grade": "A"
+        },
+        {
+            "number": "CSE 15L",
+            "id": "cse-15l",
+            "units": "2",
+            "grade": "A+"
+        }
+    ]
+}
